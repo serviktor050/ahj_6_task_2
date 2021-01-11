@@ -1,3 +1,72 @@
-body {
-    color: #999;
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.input-file {
+    width: 500px;
+    height: 200px;
+    margin-top: -200px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#click-to-select {
+    width: 500px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 470px;
+    border: 2px solid;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+#loading-images {
+    width: 80%;
+    min-height: 200px;
+    margin-top: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-image-div {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.item-image {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+
+}
+
+.close{
+    width: 40px;
+    height: 40px;
+    top: -20px;
+    right: -20px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    padding-left: 5%;
 }
